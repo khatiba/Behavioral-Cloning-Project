@@ -57,7 +57,7 @@ Load up the simulator, select the first track and click `Autonomous Mode`
 
 [image1]: ./examples/model-architecture.png "Model Visualization"
 [image2]: ./examples/error-visualization.png "Error Visualization"
-[image3]: ./examples/recovery.gif "Recovery Image"
+[image3]: ./examples/train-recovery.gif "Recovery Image"
 [image4]: ./examples/autonomous-run-close-call.gif "Autonomous Recovery Image"
 [image6]: ./examples/normal-image.png "Normal Image"
 [image7]: ./examples/processed-image.png "Processed Image"
