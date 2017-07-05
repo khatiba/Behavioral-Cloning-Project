@@ -185,4 +185,14 @@ Epoch 11/11
 
 ### Conclusion
 
-The CNN model worked very well when testing 
+The CNN model worked very well after working out some issues with the training data. However, there is still much room for improvement, as seen in the video
+the car sways slightly from side to side and had a near miss on one of the turns. Some of this can be attributed to quality of the training runs. I found
+early on that the model appeared to be overfitting however, even when this was solved, the autonomous run was not acceptable. The following changes resulted
+in significant improvements:
+
+* Take care in gathering the training data, use the mouse so that stearing angles are as accurate as possible.
+* Record the tracks going both ways to avoid biases.
+* Re-capture difficult areas or turns
+* Augment the data by flipping to ensure no bias is learned
+* Normalize and crop to focus on the important information and improve performance
+* Add dropout - this has been very effective at reducing overfitting
