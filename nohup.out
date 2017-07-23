@@ -1,0 +1,54 @@
+[W 02:48:29.304 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[I 02:48:30.506 NotebookApp] [nb_conda_kernels] enabled, 3 kernels found
+[I 02:48:30.511 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 02:48:31.290 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 02:48:31.290 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 02:48:31.309 NotebookApp] [nb_conda] enabled
+[I 02:48:31.406 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 02:48:31.407 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 02:48:31.522 NotebookApp] [nb_anacondacloud] enabled
+[I 02:48:31.533 NotebookApp] Serving notebooks from local directory: /home/carnd/Behavioral-Cloning-Project
+[I 02:48:31.533 NotebookApp] 0 active kernels 
+[I 02:48:31.533 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 02:48:31.533 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:48:31.533 NotebookApp] No web browser found: could not locate runnable browser.
+[I 02:48:33.195 NotebookApp] Kernel started: fb7ca16b-d826-4e72-a466-edf8ee8a3041
+[I 02:48:54.516 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 02:48:58.718 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[C 02:49:32.554 NotebookApp] received signal 15, stopping
+[I 02:49:32.555 NotebookApp] Shutting down kernels
+[I 02:49:33.056 NotebookApp] Kernel shutdown: fb7ca16b-d826-4e72-a466-edf8ee8a3041
+[W 02:50:03.557 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 02:50:03.557 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 02:50:03.575 NotebookApp] Serving notebooks from local directory: /home/carnd/Behavioral-Cloning-Project
+[I 02:50:03.575 NotebookApp] 0 active kernels 
+[I 02:50:03.575 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 02:50:03.575 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:50:03.576 NotebookApp] No web browser found: could not locate runnable browser.
+[I 02:50:05.895 NotebookApp] Kernel started: cfcf26bc-633b-47da-9727-c7698763080f
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 3.94GiB
+Free memory: 3.91GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 02:52:06.189 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 02:53:20.824 NotebookApp] Kernel interrupted: cfcf26bc-633b-47da-9727-c7698763080f
+[I 02:54:06.089 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 03:20:06.485 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 03:22:06.126 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 03:24:06.100 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 03:26:06.095 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[I 03:28:06.135 NotebookApp] Saving file at /Behavioral-Cloning-Project.ipynb
+[C 03:43:30.825 NotebookApp] received signal 15, stopping
+[I 03:43:30.826 NotebookApp] Shutting down kernels
+[I 03:43:31.027 NotebookApp] Kernel shutdown: cfcf26bc-633b-47da-9727-c7698763080f
