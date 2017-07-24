@@ -24,6 +24,8 @@ The input data is used in NVIDIA's CNN shown below and the output model is used 
 
 * `model.h5` contains all of the weights of the model.
 
+* `autonomous-run.mp4` video of autonomous run on track 1.
+
 ### Run the simulation
 
 First setup your environment with the udacity term-1 starter kit and also install Keras 2.x. The model was trained on the latest version of Keras, but the starter kit uses 1.x.
@@ -54,10 +56,12 @@ Load up the simulator, select the first track and click `Autonomous Mode`
 [//]: # (Image References)
 
 [image1]: ./examples/model-architecture.png "Model Visualization"
+[image2]: ./examples/error-visualization.png "Error Visualization"
 [image3]: ./examples/recovery.gif "Recovery Image"
+[image4]: ./examples/autonomous-run-close-call.gif "Autonomous Recovery Image"
 [image6]: ./examples/normal-image.png "Normal Image"
-[image7]: ./examples/flipped-image.png "Flipped Image"
-[image8]: ./examples/processed-image.png "Processed Image"
+[image7]: ./examples/processed-image.png "Processed Image"
+[image8]: ./examples/flipped-image.png "Flipped Image"
 
 
 #### 1. Model Layers and Activation
@@ -142,15 +146,21 @@ To capture good driving behavior, I first recorded two laps on each track going 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to correct it self if it swayed towards the edges. These images show what a recovery looks like:
 
 ![alt text][image3]
+
+During autonomous driving, here is an example of a close call, but nice recovery:
+
 ![alt text][image4]
-![alt text][image5]
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles so that the model wouldn't bias one direction.
 
 ![alt text][image6]
+
+After normalizing, blurring and cropping:
+
 ![alt text][image7]
+![alt text][image8]
 
 
 After the collection process, I had close to 40,000 data points and with the flipped images, total dataset was about 80,000 with 25% extracted as a validation set.
