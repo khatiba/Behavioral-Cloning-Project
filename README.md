@@ -16,6 +16,8 @@ center, left and right cameras mounted on the car. The CSV also has telemetry in
 
 The input data is used in NVIDIA's CNN shown below and the output model is used to drive the car in the simulator.
 
+[Download the training data here](https://s3-us-west-2.amazonaws.com/akhatib/behavioral-cloning-training.zip)
+
 ### Setup
 
 * `model.py` or `Behavioral-Cloning-Project.ipynb` contains the code for training and saving the output of the CNN. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works. Notice that just out of convenience, the model assumes two folders of data `track-1` and `track-2`, I keep the data separated by track in case I mess up a recording run.
