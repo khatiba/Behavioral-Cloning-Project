@@ -231,16 +231,25 @@ I found that many of the issues I faced were related to the training data, I've 
 #### Useful Commands
 
 **Zip and upload**
+
 `zip -r archive.zip track-1/ track-2/ > /dev/null 2>&1 && scp ./archive.zip carnd:~/Behavioral-Cloning-Project`
 
+
 **Run the model**
+
 `docker run -it --rm -p 4567:4567 -v ~/Desktop/CarND-Behavioral-Cloning-P3/:/src my-carnd-term1-starter-kit python drive.py model.h5`
 
+
 **Download model**
+
 `scp carnd:~/Behavioral-Cloning-Project/model.h5 ./`
 
+
 **Start Jupiter notebook**
+
 `cd ~/Behavioral-Cloning-Project && source activate carnd-term1 && jupyter notebook`
 
+
 **Unzip archive**
+
 `rm -rf track-* __MACOSX/ && unzip archive.zip > /dev/null 2>&1`
